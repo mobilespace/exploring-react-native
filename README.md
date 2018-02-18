@@ -2,8 +2,6 @@
 
 This repo serves as an introduction to React Native for MobileSpace Season 2
 
-## Getting started
-
 In this repo we will explore the RN ecosystem by creating a React Native app using `react-native-cli`, `crna` and `expo`. We will also get started with RN styling and use basic RN components such as View, ScrollView, ListView & Input components.
 
 ## Assignment #3
@@ -16,11 +14,65 @@ In this repo we will explore the RN ecosystem by creating a React Native app usi
 ### TODO
 
 - [ ] Create a simple React Native app using any two of the following three methods:
-  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) - [Getting started](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies)
-  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) - [Getting Started](https://github.com/react-community/create-react-native-app#quick-overview)
-  - [ ] [Expo](https://expo.io) - [Getting Started](https://docs.expo.io/versions/latest/guides/up-and-running.html)
+  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/)
+  - [ ] [CRNA](https://github.com/react-community/create-react-native-app)
+  - [ ] [Expo](https://expo.io)
 
 - [x] :star: **Bonus:**
+
+## Getting started
+
+## Vanilla React Native
+
+- Most **control & customization** for a RN app
+- **Needs XCode & Android Studio** to run the app
+- **Least beginner friendly** way to get started with RN
+
+### Setup & Run
+
+```
+npm install -g react-native-cli
+
+react-native init VanillaReactNative
+
+cd VanillaReactNative
+
+react-native run-ios
+  or
+react-native run-android
+```
+
+For more details or if you run into trouble, follow [this guide](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies).
+
+<br />
+
+### CRNA
+
+```
+npm install -g create-react-native-app
+
+create-react-native-app CRNA
+
+cd CRNA
+
+npm start
+
+exp ios
+  or
+exp android
+  or
+scan the QR code on the Expo mobile app
+```
+
+For more details or if you run into trouble, follow [this guide](https://github.com/react-community/create-react-native-app#quick-overview).
+
+### Expo
+
+```
+
+```
+
+For more details or if you run into trouble, follow [this guide](https://docs.expo.io/versions/latest/guides/up-and-running.html).
 
 ### Completed submissions
 
