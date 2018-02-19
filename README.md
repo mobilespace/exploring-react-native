@@ -14,13 +14,11 @@ In this repo we will explore the RN ecosystem by creating a React Native app usi
 ### TODO
 
 - [ ] Create a simple React Native app using any two of the following three methods:
-  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#vanilla-react-native)]
-  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#crna)]
-  - [ ] [Expo](https://expo.io) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#expo)]
+  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#vanilla-react-native))**
+  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) **([GETTING STARTED](https://github.com/mobilespace/exploring-react-native#crna))**
+  - [ ] [Expo](https://expo.io) **([GETTING STARTED](https://github.com/mobilespace/exploring-react-native#expo))**
 
 - [ ] :star: **Bonus:**
-
-## Getting started
 
 ## Vanilla React Native
 
