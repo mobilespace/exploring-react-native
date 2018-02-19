@@ -1,8 +1,8 @@
 # Exploring React Native - MobileSpace
 
-This repo serves as an introduction to React Native for MobileSpace Season 2
+This repo serves as an **Introduction to React Native for MobileSpace Season 2**.
 
-In this repo we will explore the RN ecosystem by creating a React Native app using `react-native-cli`, `crna` and `expo`. We will also get started with RN styling and use basic RN components such as View, ScrollView, ListView & Input components.
+In this repo we will **explore the RN ecosystem** by **creating a React Native app using `react-native-cli`, `crna` and `expo`**. We will also get started with **RN styling** and use basic RN components such as **View, Text, Button, Image, ScrollView, ListView & Input components**.
 
 ## Assignment #1
 
@@ -15,8 +15,8 @@ In this repo we will explore the RN ecosystem by creating a React Native app usi
 
 - [ ] Create a simple React Native app using any two of the following three methods:
   - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#vanilla-react-native))**
-  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) **([GETTING STARTED](https://github.com/mobilespace/exploring-react-native#crna))**
-  - [ ] [Expo](https://expo.io) **([GETTING STARTED](https://github.com/mobilespace/exploring-react-native#expo))**
+  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#crna))**
+  - [ ] [Expo](https://expo.io) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#expo))**
 
 - [ ] :star: **Bonus:**
 
