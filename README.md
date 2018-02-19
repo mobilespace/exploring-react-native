@@ -14,11 +14,11 @@ In this repo we will explore the RN ecosystem by creating a React Native app usi
 ### TODO
 
 - [ ] Create a simple React Native app using any two of the following three methods:
-  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/)
-  - [ ] [CRNA](https://github.com/react-community/create-react-native-app)
-  - [ ] [Expo](https://expo.io)
+  - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#vanilla-react-native)]
+  - [ ] [CRNA](https://github.com/react-community/create-react-native-app) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#crna)]
+  - [ ] [Expo](https://expo.io) - [[GETTING STARTED](https://github.com/mobilespace/exploring-react-native#expo)]
 
-- [] :star: **Bonus:**
+- [ ] :star: **Bonus:**
 
 ## Getting started
 
@@ -46,7 +46,7 @@ For more details or if you run into trouble, follow [this guide](https://faceboo
 
 <br />
 
-### CRNA
+## CRNA
 
 - Most **functional & flexible** of all the options - gives you Expo tooling and also allows your to eject out of the Expo ecosystem and generates iOS & Android code for you
 - **Doesn't need XCode & Android Studio** - can scan the QR code on your expo app and run your RN app
@@ -74,7 +74,7 @@ For more details or if you run into trouble, follow [this guide](https://github.
 
 <br />
 
-### Expo
+## Expo
 
 - Most **feature rich** of all the options - gives you access to Expo tooling & SDK with some really useful feature that work with minimal config
 - **Doesn't need XCode & Android Studio** - can scan the QR code on your expo app and run your RN app
@@ -99,6 +99,10 @@ For more details or if you run into trouble, follow [this guide](https://docs.ex
 
 <br />
 
+## Submission
+
+Once you have completed this assignment, please create a new issue on this repo with the title as your name and add the link to your repo in the description. One of the TA's will review your code and add your name to the list of completed submissions below if all looks good.
+
 ### Completed submissions
 
 - [ ] Ryan Liszewski
@@ -116,12 +120,6 @@ For more details or if you run into trouble, follow [this guide](https://docs.ex
 - [ ] Affaan Ghazzali
 - [ ] Girish Rawat
 - [ ] Karan Gupta
-
-<br />
-
-## Submission
-
-Once you have completed this assignment, please create a new issue on this repo with the title as your name and add the link to your repo in the description. One of the TA's will review your code and add your name to the list of completed submissions if it looks good.
 
 ## Problems?
 
