@@ -4,7 +4,7 @@ This repo serves as an introduction to React Native for MobileSpace Season 2
 
 In this repo we will explore the RN ecosystem by creating a React Native app using `react-native-cli`, `crna` and `expo`. We will also get started with RN styling and use basic RN components such as View, ScrollView, ListView & Input components.
 
-## Assignment #3
+## Assignment #1
 
 ### Objectives
 
@@ -18,15 +18,15 @@ In this repo we will explore the RN ecosystem by creating a React Native app usi
   - [ ] [CRNA](https://github.com/react-community/create-react-native-app)
   - [ ] [Expo](https://expo.io)
 
-- [x] :star: **Bonus:**
+- [] :star: **Bonus:**
 
 ## Getting started
 
 ## Vanilla React Native
 
-- Most **control & customization** for a RN app
-- **Needs XCode & Android Studio** to run the app
-- **Least beginner friendly** way to get started with RN
+- Most **control & customization** for a RN app - let's you write native code for iOS (Swift) & Android (Java/Kotlin)
+- **Needs XCode & Android Studio** to run the app on your computer on an iOS Simualor or Android Emulator
+- **Least beginner friendly but most powerful** way to get started with RN (with respect to setup)
 
 ### Setup & Run
 
@@ -48,6 +48,12 @@ For more details or if you run into trouble, follow [this guide](https://faceboo
 
 ### CRNA
 
+- Most **functional & flexible** of all the options - gives you Expo tooling and also allows your to eject out of the Expo ecosystem and generates iOS & Android code for you
+- **Doesn't need XCode & Android Studio** - can scan the QR code on your expo app and run your RN app
+- **Most flexible** way to get started with RN
+
+### Setup & Run
+
 ```
 npm install -g create-react-native-app
 
@@ -57,26 +63,44 @@ cd CRNA
 
 npm start
 
-exp ios
-  or
-exp android
-  or
 scan the QR code on the Expo mobile app
+  or
+npm run ios (needs Xcode)
+  or
+npm run android (needs Android Studio)
 ```
 
 For more details or if you run into trouble, follow [this guide](https://github.com/react-community/create-react-native-app#quick-overview).
 
+<br />
+
 ### Expo
 
-```
+- Most **feature rich** of all the options - gives you access to Expo tooling & SDK with some really useful feature that work with minimal config
+- **Doesn't need XCode & Android Studio** - can scan the QR code on your expo app and run your RN app
+- **Easiest & most useful** way to get started with RN
+
+### Setup & Run
 
 ```
+open up Expo XDE & open your project folder
+  or
+npm install -g exp
+exp start
 
-For more details or if you run into trouble, follow [this guide](https://docs.expo.io/versions/latest/guides/up-and-running.html).
+click share on XDE (top right) & scan QR code on your phone
+  or
+exp ios (needs Xcode)
+  or
+exp android (needs Android Studio)
+```
+
+For more details or if you run into trouble, follow [this guide](https://docs.expo.io/versions/latest/introduction/installation.html).
+
+<br />
 
 ### Completed submissions
 
-- [ ] Monte Thakkar
 - [ ] Ryan Liszewski
 - [ ] Thomas Zhu
 - [ ] Bhavesh Chowdhury
