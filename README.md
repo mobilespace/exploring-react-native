@@ -2,7 +2,7 @@
 
 This repo serves as an **Introduction to React Native for MobileSpace Season 2**.
 
-In this repo we will **explore the RN ecosystem** by **creating a React Native app using `react-native-cli`, `crna` and `expo`**. We will also get started with **RN styling** and use basic RN components such as **View, Text, Button, Image, ScrollView, ListView & Input components**.
+In this repo we will **explore the RN ecosystem** by **creating a React Native app using `react-native-cli`, `crna` and `expo`**. We will also get started with **RN styling** and use [basic RN components](https://facebook.github.io/react-native/docs/components-and-apis.html#basic-components) such as **View, Text, StyleSheet, Image, Button, ScrollView, ListView & TextInput components**.
 
 ## Assignment #1
 
@@ -17,8 +17,18 @@ In this repo we will **explore the RN ecosystem** by **creating a React Native a
   - [ ] [Vanilla React Native](https://facebook.github.io/react-native/) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#vanilla-react-native))**
   - [ ] [CRNA](https://github.com/react-community/create-react-native-app) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#crna))**
   - [ ] [Expo](https://expo.io) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#expo))**
+- [ ] Create a [ScrollView](https://facebook.github.io/react-native/docs/scrollview.html) in your `CRNA` app with the following components:
+  - [ ] [Image component](https://facebook.github.io/react-native/docs/image.html) - must use 3 different images in various sizes & positioned using flexbox
+  - [ ] [Button component](https://facebook.github.io/react-native/docs/button.html) - must be able to toggle the background color of the container view
+  - [ ] [FlatList component](https://facebook.github.io/react-native/docs/flatlist.html) - must use the provide mockData [here]() to create a list of all Community Members
+  - [ ] [TextInput components](https://facebook.github.io/react-native/docs/textinput.html) - must allow the user to type the secret phrase & show an [Alert](https://facebook.github.io/react-native/docs/alert.html) if it's valid or not.
+- [ ] :star: **Bonus:** Use [WebView](https://facebook.github.io/react-native/docs/webview.html) component to open the community memebers Github profile
+- [ ] :star: **Bonus** Use [Switch](https://facebook.github.io/react-native/docs/switch.html) component
+- [ ] :star: **Bonus** Use the [TouchableOpacity](https://facebook.github.io/react-native/docs/touchableopacity.html) or the [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html) component in place of the `Button` component above
+- [ ] :star: **Bonus** Use [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-module) API to display different UI for iOS & Android
 
-- [ ] :star: **Bonus:**
+### Screenshots
+
 
 ## Vanilla React Native
 
