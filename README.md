@@ -4,6 +4,8 @@ This repo serves as an **Introduction to React Native for MobileSpace Season 2**
 
 In this repo we will **explore the RN ecosystem** by **creating a React Native app using `react-native-cli`, `crna` and `expo`**. We will also get started with **RN styling** and use [basic RN components](https://facebook.github.io/react-native/docs/components-and-apis.html#basic-components) such as **View, Text, StyleSheet, Image, Button, ScrollView, ListView & TextInput components**.
 
+### [Demo - Try it on Expo](https://exp.host/@monte9/crna)
+
 ## Assignment #1
 
 ### Objectives
@@ -124,7 +126,6 @@ Once you have completed this assignment, please create a new issue on this repo 
 - [ ] William Hua
 - [ ] Mitul Savani
 - [ ] Jakhongir Khusanov
-- [ ] Juan Meza
 - [ ] Teodora Caneva
 - [ ] Affaan Ghazzali
 - [ ] Girish Rawat
