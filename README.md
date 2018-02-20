@@ -23,9 +23,9 @@ In this repo we will **explore the RN ecosystem** by **creating a React Native a
   - [ ] [FlatList component](https://facebook.github.io/react-native/docs/flatlist.html) - must use the provide mockData [here](https://raw.githubusercontent.com/mobilespace/exploring-react-native/master/CRNA/constants.js) to create a list of all Community Members
   - [ ] [TextInput components](https://facebook.github.io/react-native/docs/textinput.html) - must allow the user to type the secret phrase & show an [Alert](https://facebook.github.io/react-native/docs/alert.html) if it's valid or not.
 - [ ] :star: **Bonus:** Use [WebView](https://facebook.github.io/react-native/docs/webview.html) component to open the community members Github profile
-- [ ] :star: **Bonus** Use [Switch](https://facebook.github.io/react-native/docs/switch.html) component
-- [ ] :star: **Bonus** Use the [TouchableOpacity](https://facebook.github.io/react-native/docs/touchableopacity.html) or the [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html) component in place of the `Button` component above
-- [ ] :star: **Bonus** Use [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-module) API to display different UI for iOS & Android
+- [ ] :star: **Bonus:** Use [Switch](https://facebook.github.io/react-native/docs/switch.html) component
+- [ ] :star: **Bonus:** Use the [TouchableOpacity](https://facebook.github.io/react-native/docs/touchableopacity.html) or the [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html) component in place of the `Button` component above
+- [ ] :star: **Bonus:** Use [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-module) API to display different UI for iOS & Android
 
 ### Demo
 
