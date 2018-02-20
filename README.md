@@ -18,17 +18,18 @@ In this repo we will **explore the RN ecosystem** by **creating a React Native a
   - [ ] [CRNA](https://github.com/react-community/create-react-native-app) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#crna))**
   - [ ] [Expo](https://expo.io) **([GET STARTED](https://github.com/mobilespace/exploring-react-native#expo))**
 - [ ] Create a [ScrollView](https://facebook.github.io/react-native/docs/scrollview.html) in your `CRNA` app with the following components:
-  - [ ] [Image component](https://facebook.github.io/react-native/docs/image.html) - must use 3 different images in various sizes & positioned using flexbox
+  - [ ] [Image component](https://facebook.github.io/react-native/docs/image.html) - must use 3 different images in various sizes & position them using flexbox
   - [ ] [Button component](https://facebook.github.io/react-native/docs/button.html) - must be able to toggle the background color of the container view
-  - [ ] [FlatList component](https://facebook.github.io/react-native/docs/flatlist.html) - must use the provide mockData [here]() to create a list of all Community Members
+  - [ ] [FlatList component](https://facebook.github.io/react-native/docs/flatlist.html) - must use the provide mockData [here](https://raw.githubusercontent.com/mobilespace/exploring-react-native/master/CRNA/constants.js) to create a list of all Community Members
   - [ ] [TextInput components](https://facebook.github.io/react-native/docs/textinput.html) - must allow the user to type the secret phrase & show an [Alert](https://facebook.github.io/react-native/docs/alert.html) if it's valid or not.
-- [ ] :star: **Bonus:** Use [WebView](https://facebook.github.io/react-native/docs/webview.html) component to open the community memebers Github profile
+- [ ] :star: **Bonus:** Use [WebView](https://facebook.github.io/react-native/docs/webview.html) component to open the community members Github profile
 - [ ] :star: **Bonus** Use [Switch](https://facebook.github.io/react-native/docs/switch.html) component
 - [ ] :star: **Bonus** Use the [TouchableOpacity](https://facebook.github.io/react-native/docs/touchableopacity.html) or the [TouchableHighlight](https://facebook.github.io/react-native/docs/touchablehighlight.html) component in place of the `Button` component above
 - [ ] :star: **Bonus** Use [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-module) API to display different UI for iOS & Android
 
-### Screenshots
+### Demo
 
+![working_gif_assignment_3](https://i.imgur.com/8b7xL6x.gif)
 
 ## Vanilla React Native
 
