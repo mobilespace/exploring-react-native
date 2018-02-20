@@ -13,7 +13,7 @@ export default class ButtonView extends React.Component {
     super(props)
 
     this.state = {
-      currentColor: '#FEFBD0'
+      currentColor: '#AEDBF5'
     }
   }
 
@@ -41,11 +41,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 400
-  },
-  centeredText: {
-    color: '#775D6A',
-    fontSize: 22,
-    textAlign: 'center',
-    paddingHorizontal: 30
   }
 });

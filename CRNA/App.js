@@ -3,7 +3,8 @@ import {
   StyleSheet,
   Text,
   View,
-  ScrollView
+  ScrollView,
+  Keyboard
 } from 'react-native';
 
 import ImageView from './components/ImageView';
@@ -16,7 +17,8 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <ScrollView
-          contentContainerStyle={{flexGrow: 1, justifyContent: 'center'}}>
+          contentContainerStyle={{flexGrow: 1, justifyContent: 'center'}}
+          onPress={Keyboard.dismiss}>
           <ImageView />
           <ButtonView />
           <InputView />
@@ -30,6 +32,6 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1481E6'
+    backgroundColor: '#4F80E1'
   }
 });

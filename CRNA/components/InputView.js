@@ -2,14 +2,54 @@ import React from 'react';
 import {
   StyleSheet,
   Text,
-  View
+  View,
+  TextInput,
+  Alert
 } from 'react-native';
 
 export default class InputView extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      phrase: ''
+    };
+  }
+
+  validateInput() {
+    if(this.state.phrase === 'Mars') {
+      Alert.alert(
+        'Success',
+        'You entered the right phrase!',
+        [
+          { text: 'OK', onPress: () => console.log('OK pressed') }
+        ],
+        { cancelable: false }
+      )
+    } else {
+      Alert.alert(
+        'Invalid',
+        'You entered the wrong phrase!',
+        [
+          { text: 'Try again', onPress: () => console.log('Try again pressed') }
+        ],
+        { cancelable: false }
+      )
+    }
+  }
+
   render() {
     return (
       <View style={styles.inputViewContainer}>
-        <Text style={styles.centeredText}>Input component goes here! Verify user input & then show Alert component</Text>
+        <TextInput
+          style={styles.textInput}
+          onChangeText={(phrase) => this.setState({ phrase })}
+          placeholder="Enter secret phrase"
+          placeholderTextColor="white"
+          selectionColor="white"
+          value={this.state.phrase}
+          onSubmitEditing={() => this.validateInput()}
+        />
       </View>
     );
   }
@@ -17,16 +57,20 @@ export default class InputView extends React.Component {
 
 const styles = StyleSheet.create({
   inputViewContainer: {
-    backgroundColor: '#FEFBD0',
+    backgroundColor: '#4F80E1',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 400,
-    marginTop: 50
+    height: 100,
   },
-  centeredText: {
-    color: '#775D6A',
-    fontSize: 22,
-    textAlign: 'center',
-    paddingHorizontal: 30
+  textInput: {
+    height: 50,
+    width: '80%',
+    borderColor: 'white',
+    borderWidth: 1,
+    borderRadius: 10,
+    paddingLeft: 10,
+    fontSize: 18,
+    color: 'white',
+    marginTop: 40
   }
 });
