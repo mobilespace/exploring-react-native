@@ -4,7 +4,8 @@ import {
   Text,
   View,
   TextInput,
-  Alert
+  Alert,
+  Keyboard
 } from 'react-native';
 
 export default class InputView extends React.Component {
@@ -18,6 +19,7 @@ export default class InputView extends React.Component {
 
   validateInput() {
     if(this.state.phrase === 'Mars') {
+      Keyboard.dismiss
       Alert.alert(
         'Success',
         'You entered the right phrase!',
@@ -27,6 +29,7 @@ export default class InputView extends React.Component {
         { cancelable: false }
       )
     } else {
+      Keyboard.dismiss
       Alert.alert(
         'Invalid',
         'You entered the wrong phrase!',
