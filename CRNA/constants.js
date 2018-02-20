@@ -1,12 +1,3 @@
-import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  Image
-} from 'react-native';
-
 const COMMUNITY_MEMBERS = [
   {
     name: 'Monte Thakkar',
@@ -84,62 +75,3 @@ const COMMUNITY_MEMBERS = [
     github_username: 'karanguptak9'
   }
 ]
-
-export default class ListView extends React.Component {
-  renderMemberRow(member) {
-    return (
-      <View style={styles.rowContainer} key={member}>
-        <Image source={{ url: member.image }} style={styles.avatar} />
-        <Text style={styles.nameLabel}>{member.name}</Text>
-        <Text style={styles.githubUsernameLabel}>@{member.github_username}</Text>
-      </View>
-    )
-  }
-
-  render() {
-    return (
-      <View style={styles.listViewContainer}>
-        <FlatList
-          data={COMMUNITY_MEMBERS}
-          keyExtractor={(item, index) => index}
-          renderItem={({ item }) => this.renderMemberRow(item)}
-        />
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  listViewContainer: {
-    backgroundColor: '#DA727E',
-    justifyContent: 'center',
-    marginBottom: 50
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    height: 60,
-    alignItems: 'center',
-    backgroundColor: 'white',
-    borderTopWidth: 1,
-    borderColor: 'gray'
-  },
-  avatar: {
-    height: 40,
-    width: 40,
-    borderRadius: 20,
-    marginLeft: 10
-  },
-  nameLabel: {
-    fontSize: 18,
-    color: '#455C7B',
-    marginLeft: 10,
-    fontWeight: 'bold'
-  },
-  githubUsernameLabel: {
-    flex: 1,
-    textAlign: 'right',
-    fontSize: 15,
-    color: '#44484B',
-    marginRight: 20
-  }
-});

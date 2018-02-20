@@ -47,6 +47,7 @@ export default class InputView extends React.Component {
           placeholder="Enter secret phrase"
           placeholderTextColor="white"
           selectionColor="white"
+          underlineColorAndroid="transparent"
           value={this.state.phrase}
           onSubmitEditing={() => this.validateInput()}
         />
@@ -61,6 +62,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 100,
+    marginVertical: 50
   },
   textInput: {
     height: 50,
@@ -70,7 +72,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     paddingLeft: 10,
     fontSize: 18,
-    color: 'white',
-    marginTop: 40
+    color: 'white'
   }
 });
