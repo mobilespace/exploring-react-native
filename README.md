@@ -112,7 +112,7 @@ For more details or if you run into trouble, follow [this guide](https://docs.ex
 
 ## Submission
 
-Once you have completed this assignment, please create a new issue on this repo with the title as your name and add the link to your repo in the description. One of the TA's will review your code and add your name to the list of completed submissions below if all looks good.
+Once you have completed this assignment, please create a new issue on this repo with the title as your name and add the link to your repo in the description. One of the TA's will review your code and follow up with you.
 
 ## Problems?
 
